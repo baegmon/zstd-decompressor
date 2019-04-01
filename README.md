@@ -6,7 +6,6 @@ zstd-decompressor is a simple script I created to parse all .zst files in a dire
 
 This script generates two .txt files
 - {date}-results.txt: A file with all the discovered keywords.
-- {date}-errors.txt: A list of files the script could not parse.
 
 **Requirements**
 python3
@@ -40,3 +39,7 @@ Processing file: E:\ftp\Collection #1\USER PASS combos\99.txt.zst
 Results have been generated at: 2019-04-01-results.txt
 Processed in: 0:25:01.969913
 ```
+
+**TODO**
+- [ ] Implement exporting to .JSON
+- [ ] Implement exporting to .CSV
