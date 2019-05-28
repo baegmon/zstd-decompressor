@@ -4,8 +4,7 @@ Zstandard, or zstd as short version, is a fast lossless compression algorithm cr
 
 zstd-decompressor is a simple script I created to parse all .zst files in a directory (and all its subdirectories).
 
-This script generates two .txt files
-- {date}-results.txt: A file with all the discovered keywords.
+This script generates a single file {date}-results.txt file with all the matching keyword separated by a new line.
 
 **Requirements**
 python3
